@@ -109,7 +109,7 @@ class App extends Component {
     const filteredSeaCreatures = seaCreatureList.filter(this.critSeason).filter(this.critTime);
     return (
       <div>
-        <div className='f1 f-headline-ns acnh-font'>Animal Crossing: New Horizons Critter Guide</div>
+        <div className='f1 f-headline-ns acnh-font tc gold'>Animal Crossing: New Horizons Critter Guide</div>
         <div className='flex justify-center w-100'>
           <TimeBox setHem={this.setHem} setPlayerHour={this.setPlayerHour} setPlayerMonth={this.setPlayerMonth} />
         </div>
