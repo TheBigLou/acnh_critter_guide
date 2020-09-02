@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'FinkHeavy';
-  font-style: normal;
-  font-weight: normal;
-  src: url('./finkheavy.ttf') format('truetype');
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
