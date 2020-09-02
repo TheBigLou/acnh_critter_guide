@@ -114,7 +114,7 @@ class App extends Component {
           <TimeBox setHem={this.setHem} setPlayerHour={this.setPlayerHour} setPlayerMonth={this.setPlayerMonth} />
         </div>
         <div className='flex justify-center'>
-          <div id='clearFilterToggle' className='tc' onClick={() => this.filterToggle()}>Show Filtered</div>
+          <div id='clearFilterToggle' className='tc f3 bg-light-yellow pa2 br2 ma3 pointer' onClick={() => this.filterToggle()}>Show Filtered</div>
         </div>
         <div id='table-area' className='flex flex-wrap justify-center'>
           <div className='w-50-ns w-80-m w-60-l mh2'>
